@@ -1,32 +1,43 @@
+<!-- <!DOCTYPE html> -->
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <title>Page Title</title> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
         <title>Lawrence's Profile</title>
-        <rel="stylesheet" type="text/stylesheet" src="style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css" /> -->
     </head>
     <body>
         <header>
-            <div>
-                <h1>
-                    <a href="index.html">Lawrence Splaver</a>
-                </h1>
-            </div>
-            <div>
-                <div class="headerLinks">
-                    <a href="index.html">About</a>
+            <div class="mainContent">
+                <div>
+                    <h1>
+                        <a href="index.html">Lawrence Splaver</a>
+                    </h1>
                 </div>
-                <div class="headerDivider">|</div>
-                <div class="headerLinks">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                <div class="headerDivider">|</div>
-                <div class="headerLinks">
-                    <a href="contact.html">Contact</a>
+                <div>
+                    <div>
+                        <a href="index.html" class="headerLinks">About</a>
+                    </div>
+                    <div class="headerDivider">|</div>
+                    <div>
+                        <a href="portfolio.html" class="headerLinks">Portfolio</a>
+                    </div>
+                    <div class="headerDivider">|</div>
+                    <div>
+                        <a href="contact.html" class="headerLinks">Contact</a>
+                    </div>
                 </div>
             </div>
         </header>
-        <div id="divider"></div>
-        <section class="bio">
+        <div class="mainContent">
+            <div id="divider"></div>
+            <section class="bio">
                 <div>
                     <h2>About Me</h2>
                 </div>
@@ -40,19 +51,20 @@
                 </div>
             </section>
             <div id="footerDivider"></div>
-        <aside>
-            <h3>Connect with Me</h3>
-            <div class="bioConnectDivider"></div>
-            <a class="connectLinks" href="https://github.com/lsplaver">
-                <img class="connectLogos" src="assets/images/github-128-2.png" alt="Lawrence Splaver's GitHub" />
-            </a>
-            <a class="connectLinks" href="https://www.linkedin.com/in/lawrence-s-36b018151">
-                <img class="connectLogos" src="assets/images/linkedin-128-2.png" alt="Lawrence Splaver's LinkedIn" />
-            </a>
-            <a class="connectLinks" href="https://stackoverflow.com/users/9175315/l-splaver">
-                <img class="connectLogos" src="assets/images/stackoverflow-128.png" alt="Lawrence Splaver's StackOverflow" />
-            </a>
-        </aside>
-        <footer>&copy; Copyright 2018 Lawrence Splaver</footer>
+            <aside>
+                <h3>Connect with Me</h3>
+                <div class="bioConnectDivider"></div>
+                <a class="connectLinks" href="https://github.com/lsplaver">
+                    <img class="connectLogos" src="assets/images/github-128-2.png" alt="Lawrence Splaver's GitHub" />
+                </a>
+                <a class="connectLinks" href="https://www.linkedin.com/in/lawrence-s-36b018151">
+                    <img class="connectLogos" src="assets/images/linkedin-128-2.png" alt="Lawrence Splaver's LinkedIn" />
+                </a>
+                <a class="connectLinks" href="https://stackoverflow.com/users/9175315/l-splaver">
+                    <img class="connectLogos" src="assets/images/stackoverflow-128-2.png" alt="Lawrence Splaver's StackOverflow" />
+                </a>
+            </aside>
+            <footer>&copy; Copyright 2018 Lawrence Splaver</footer>
+        </div>
     </body>
 </html>
