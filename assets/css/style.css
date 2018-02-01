@@ -242,6 +242,11 @@ p {
     float: right;
     position: relative;
     top: 20px;
+
+    /*Psuedo Code
+    
+    wrap the text around the picture on index.html
+    */
 }
 
 #profilePic {
